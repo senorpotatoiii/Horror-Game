@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float movementSpeed = 1f;
+<<<<<<< Updated upstream
     Vector3 rawInput = new Vector2();
     Vector2 newPosition;
 
@@ -16,6 +17,10 @@ public class PlayerMovement : MonoBehaviour
             Movement();
         }
     }
+=======
+    [SerializeField] GameObject npc;
+    Rigidbody2D rb;
+>>>>>>> Stashed changes
     
     void Movement()
     {
@@ -34,5 +39,9 @@ public class PlayerMovement : MonoBehaviour
     {
         // Returns value as a 2D Vector and assigns it to rawInput.
         rawInput = value.Get<Vector2>();
+    }
+
+    void OnNPCTestPath(){
+        npc.GetComponent<NPCMovement>().MovetoLocation();
     }
 }

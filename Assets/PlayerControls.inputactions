@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "NPCTestPath",
+                    "type": "Button",
+                    "id": "676fc346-5f1f-42a4-a6b0-40697dcd8672",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -125,6 +134,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "8fd6eaa4-d841-48d6-9df7-9b07fa7ed3f6",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NPCTestPath",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
