@@ -311,6 +311,7 @@ GameObject:
   - component: {fileID: 1046066238}
   - component: {fileID: 1046066242}
   - component: {fileID: 1046066241}
+  - component: {fileID: 1046066243}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -439,6 +440,18 @@ MonoBehaviour:
   m_DefaultActionMap: Movement
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!122 &1046066243
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046066237}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4282927183
+  m_Size: 1.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
