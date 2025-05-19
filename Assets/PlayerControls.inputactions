@@ -15,9 +15,9 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "NPCTestPath",
+                    "name": "Test",
                     "type": "Button",
-                    "id": "676fc346-5f1f-42a4-a6b0-40697dcd8672",
+                    "id": "884d0190-42f3-4ecb-8b70-914b3447b912",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -137,12 +137,12 @@
                 },
                 {
                     "name": "",
-                    "id": "8fd6eaa4-d841-48d6-9df7-9b07fa7ed3f6",
+                    "id": "283f4311-b053-475c-9678-94a4837fee4e",
                     "path": "<Keyboard>/p",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "NPCTestPath",
+                    "action": "Test",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
